@@ -1,0 +1,113 @@
+* {
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url('fondo2.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contLogin{
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.3); 
+    width: 35%;
+    height: 60%;
+    padding: 40px 7%; 
+}
+
+
+.contLogin h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.contLogin form
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+}
+
+.contLogin label{
+    margin-bottom: 10px;
+}
+
+.contLogin input{
+    margin-bottom: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: border 0.2s ;
+}
+
+.contLogin .elemcont{
+    margin-bottom: 40px;
+}
+
+.contLogin input:focus{
+    outline: none;
+    border: 2px solid #007BFF;
+    transition: border 0.2s ;
+ 
+}
+
+.contLogin .btnEnviar{
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1em;
+    transition: background-color 0.5s ease ;
+}
+
+.contLogin .btnEnviar:hover{
+   background-color:rgb(175, 213, 247);
+   transition: background-color 0.5s ease ;
+}
+
+.contLogin .btnEnviar:active{
+    background-color:rgb(122, 171, 214);
+    text-decoration: underline;
+ }
+
+
+
+.contLogin .textbox{
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+@media screen and (max-width: 900px) {
+    .contLogin{
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0.3); 
+        width: 70%;
+        height: 50%;
+        padding: 40px 7%; 
+
+    }
+
+    .contLogin form{
+       font-size: 1.3em;
+    }
+
+
+    
+}
+
+
+
+
+
+
